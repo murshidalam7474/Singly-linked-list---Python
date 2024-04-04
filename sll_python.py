@@ -253,10 +253,8 @@ if __name__ == "__main__":
     linked_list = SinglyLinkedList()  
     while True:  
         print("\n1. Create\n2. Display\n3. Count\n4. Sum of all nodes\n5. Anywhere insert")  
-        print("6. Search an element\n7. Delete option\n8. Check Sort\n9. Remove duplicate\n10. To Reverse
- ")  
-        print("11. Get node data\n12. Check for cycle detection\n13. Get node from end\n14. Occurrence of 
-data")  
+        print("6. Search an element\n7. Delete option\n8. Check Sort\n9. Remove duplicate\n10. To Reverse ")  
+        print("11. Get node data\n12. Check for cycle detection\n13. Get node from end\n14. Occurrence of data")  
         print("15. Swap nodes in a linked list\n16. Pairwise swap\n17. Exit")  
         choice = int(input("Enter your choice: "))  
   
@@ -295,7 +293,7 @@ data")
             else:  
                 print("The list is not sorted.")  
                 ask = input("Do you want to sort the list (y/n): ")  
-                if ask == ’y’:  
+                if ask == 'y':  
                     linked_list.Asortt()  
                     linked_list.display()  
         elif choice == 9:  
